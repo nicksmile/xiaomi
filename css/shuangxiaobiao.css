@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* banner开始 */
+
+.banner{
+    width: 1226px;
+    height: 460px;
+    background: red;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.imgbox{
+    width: 100%;
+    height: 100%;
+    background: pink;
+    position: relative;
+}
+.imgbox li{
+    width: 100%;
+    height: 100%;
+    background: blue;
+    position: absolute;
+    top: 0;
+    left: 1226px;
+    /*z-index: 6;*/
+}
+/*.imgbox li:nth-child(2){*/
+    /**/
+/*}*/
+.imgbox li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.imgbox li a img{
+    display: block;
+    width: 100%;
+}
+/* 左生活 */
+.lifts{
+    width: 236px;
+    height: 460px;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*z-index: 25;*/
+     /*position: relative;*/
+}
+/* .lifts .liftsl{
+	width: 100%;
+	height: 42px;
+	position: relative;
+} */
+.lifts .liftsl,.lifts .liftsl a{
+    width: 100%;
+    height: 42px;
+    /* background: pink; */
+    display: block;
+    /* position: relative; */
+    /* margin-top: 20px; */
+}
+.lifts .liftsl:first-child{
+    margin-top: 20px;
+}
+.lifts .liftsl a h2{
+    line-height: 42px;
+    font-size: 14px;
+    margin-left: 28px;
+    float: left;
+    color: #ffffff;
+}
+.lifts .liftsl a h3{
+    line-height: 42px;
+    font-size: 14px;
+    margin-left: 28px;
+    float: right;
+    margin-right: 24px;
+    color: #ffffff;
+}
+.lifts .liftsl a:hover{
+    background: #ff6700;
+}
+.lifts .liftsl .lifbox{
+    width: 992px;
+    height: 458px;
+    border: 1px solid #e0e0e0;
+    border-left: none;
+    background: #fff;
+    position: absolute;
+    left: 234px;
+    top: 0;
+    z-index: 99999;
+    display: none;
+    padding-top: 16px;
+
+}
+.lifts .liftsl .lifbox .boxxq{
+    width: 100%;
+    height: 74px;
+    /* background: pink; */
+
+    display: flex;
+    justify-content: space-between;
+}
+.lifts .liftsl .lifbox .boxxq li{
+    width: 214px;
+    height: 74px;
+    /* background: red; */
+}
+.lifts .liftsl .lifbox .boxxq li a{
+    /* display: block; */
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lifts .liftsl .lifbox .boxxq li a img{
+    width: 40px;
+    height: 40px;
+    margin-right: 14px;
+}
+.lifts .liftsl .lifbox .boxxq li a span{
+    font-size: 14px;
+    color: #000;
+}
+.lifts .liftsl .lifbox .boxxq li a span:hover{
+    color: #ff6700;
+}
+/* 做生活结束 */
+/* 小圆开始 */
+.bth{
+    width: 112px;
+    height: 10px;
+    /* background: red; */
+    position: absolute;
+    bottom: 35px;
+    right: 25px;
+    /*z-index: 25;*/
+}
+.bth li{
+    width: 6px;
+    height: 6px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    border: 2px solid #844846;
+    float: left;
+    margin-right: 10px;
+    /*z-index: 25;*/
+}
+.bth .hot{
+    background: #ffffff;
+}
+.bth li:last-child{
+    margin-right: 0px;
+}
+/* 小圆结束 */
+/* 左右箭头 */
+.blts{
+    width: 41px;
+    height: 69px;
+    background: url('../img/18.png') no-repeat -82px 0;
+    position: absolute;
+    display: block;
+    left: 236px;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    /*z-index: 20;*/
+}
+.blts:hover{
+    background: url('../img/18.png') no-repeat 0 0;
+}
+.bltss{
+    width: 41px;
+    height: 69px;
+    background: url('../img/18.png') no-repeat -124px 0;
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    /*z-index: 20;*/
+}
+.bltss:hover{
+    background: url('../img/18.png') no-repeat -42px 0;
+}
+/* 左右箭头结束 */
+/* banner结束 */
